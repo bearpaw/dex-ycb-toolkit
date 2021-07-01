@@ -2,11 +2,12 @@
 # Copyright (C) 2021 NVIDIA Corporation
 # Licensed under the GNU General Public License v3.0 [see LICENSE for details]
 
-from setuptools import setup
+from setuptools import find_packages, setup
 
 setup(
     name='dex_ycb_toolkit',
     version='1.0',
+    packages=find_packages(),
     install_requires=[
         'chumpy',
         'numpy',
