@@ -5,7 +5,7 @@
 from setuptools import setup
 
 setup(
-    name='dex-ycb-toolkit',
+    name='dex_ycb_toolkit',
     version='1.0',
     install_requires=[
         'chumpy',
